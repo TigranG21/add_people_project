@@ -27,7 +27,6 @@ class App extends React.Component{
         
         return (
             <div className="container">
-                <h1>Tigo tigo tgioaaaaaa</h1>
                 <h1>React Task</h1>
                 <h3>Add your info in table</h3>
                 <Table characterData={characters} removeCharacter={this.removeCharacter}/>
